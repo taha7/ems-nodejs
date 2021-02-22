@@ -1,0 +1,1 @@
+{"version":3,"file":"in-conf.trait.js","sourceRoot":"","sources":["../../../src/traits/in-conf.trait.ts"],"names":[],"mappings":";;;;;AACA,mEAA0C;AAG1C,MAAM,MAAO,SAAQ,oBAAS;IAC5B,QAAQ,CAA2B,KAAsB;QACvD,KAAK,CAAC,SAAS,CAAC,MAAM,GAAG,UAAS,EAAiB;YACjD,OAAO;gBACL,KAAK,EAAE;oBACL,EAAE;iBACH;aACF,CAAC;QACJ,CAAC,CAAC;IACJ,CAAC;CACF;AAED,kBAAe,MAAM,CAAC"}
