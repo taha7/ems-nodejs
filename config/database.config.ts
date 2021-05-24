@@ -4,7 +4,7 @@ const config: Options = {
   host: "localhost",
   username: "root",
   password: "",
-  database: "ems_stg7",
+  database: "ems_node",
   dialect: "mysql",
   pool: {
     max: 5,

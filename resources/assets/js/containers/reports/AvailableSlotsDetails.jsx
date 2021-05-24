@@ -30,6 +30,7 @@ const AvailableSlotsDetails = () => {
     axios
       .get('/admin/reports/api/available-slots-details', { params: { page, perPage: 50 } })
       .then(({ data }) => {
+        console.log(data);
         setRows(data.data);
         setPaginationOptions(data.meta);
       })
@@ -60,7 +61,7 @@ const AvailableSlotsDetails = () => {
                           <td className={utilities.td}>{row.company}</td>
                           <td className={utilities.td}>{row.client_type}</td>
                           <td className={utilities.td}>
-                          {row.available_slots.map((slot, $index) => (<span key={row.id + '' + slot.id}>{slot.start_time} {$index == row.available_slots.length - 1 ? '' : ', '}</span>))}
+                          {/* {row.available_slots.map((slot, $index) => (<span key={row.id + '' + slot.id}>{slot.start_time} {$index == row.available_slots.length - 1 ? '' : ', '}</span>))} */}
                           </td>
                         </tr>
                       ))}

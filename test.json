@@ -1,6 +1,6 @@
 {
   "watch-server": "tsc && nodemon dist/app.js",
   "dev-server": "nodemon --exec babel-node server.js",
-  "build-server": "babel src --out-dir lib",
+  "build-server": "babel src --out-dir lib"
   
 }
